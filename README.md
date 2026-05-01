@@ -1,10 +1,10 @@
 # 📚 Gravity Bookstore Data Warehouse Project
 
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![SSIS](https://img.shields.io/badge/SSIS-ETL-blue?style=for-the-badge)
-![SSAS](https://img.shields.io/badge/SSAS-OLAP-purple?style=for-the-badge)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-Star%20Schema-green?style=for-the-badge)
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](#sql-server)
+[![SSIS](https://img.shields.io/badge/SSIS-ETL-blue?style=for-the-badge)](#ssis-etl)
+[![SSAS](https://img.shields.io/badge/SSAS-OLAP-purple?style=for-the-badge)](#ssas-olap)
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#power-bi)
+[![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-Star%20Schema-green?style=for-the-badge)](#data-warehouse-modeling)
 
 Welcome to the **Gravity Bookstore Data Warehouse Project** repository.  
 This project presents a complete end-to-end **Business Intelligence / Data Warehouse solution** for the **Gravity Bookstore** database using **SQL Server**, **SSIS**, **SSAS**, and **Power BI**.
@@ -63,6 +63,8 @@ flowchart TD
 
 ---
 
+<a id="data-warehouse-modeling"></a>
+
 ## 🧩 Data Warehouse Modeling
 
 The data warehouse was designed using a dimensional model that supports both sales analysis and order status analysis.
@@ -80,6 +82,8 @@ The data warehouse was designed using a dimensional model that supports both sal
 - **Date Dimension** supports time-based reporting by day, month, quarter, and year.
 
 ---
+
+<a id="star-schema"></a>
 
 ## ⭐ Dimensional Model
 
@@ -133,6 +137,8 @@ Main columns include:
 
 ---
 
+<a id="sql-server"></a>
+
 ## 🗄️ SQL Server Data Warehouse Implementation
 
 The warehouse database was created in **SQL Server Management Studio** using T-SQL scripts.
@@ -155,6 +161,8 @@ The warehouse database was created in **SQL Server Management Studio** using T-S
 7. Adjusted column data types where needed to match SSIS source metadata.
 
 ---
+
+<a id="ssis-etl"></a>
 
 ## 🔄 ETL Process Using SSIS
 
@@ -273,6 +281,8 @@ SSIS/screenshots/
 
 ---
 
+<a id="ssas-olap"></a>
+
 ## 🧊 OLAP Cube Development Using SSAS
 
 After loading the dimensional data warehouse, an SSAS multidimensional cube was created to enable fast and flexible analytical reporting.
@@ -341,6 +351,8 @@ SSAS/Screenshots/
 </details>
 
 ---
+
+<a id="power-bi"></a>
 
 ## 📊 Power BI Dashboards
 
@@ -583,4 +595,3 @@ I enjoy designing data models, building ETL pipelines, creating analytical cubes
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-
